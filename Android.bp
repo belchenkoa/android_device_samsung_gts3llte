@@ -1,0 +1,6 @@
+// Device-specific diagnostic utilities for gts3llte.
+sh_binary {
+    name: "gts3diag",
+    src: "tools/gts3diag.sh",
+    filename: "gts3diag",
+}

@@ -29,6 +29,11 @@ PRODUCT_PACKAGES += \
     init.vendor.rilchip.rc \
     init.vendor.rilcommon.rc
 
+# Diagnostics
+PRODUCT_PACKAGES += \
+    Terminal \
+    gts3diag
+
 # IPA
 PRODUCT_PACKAGES += \
     ipacm \

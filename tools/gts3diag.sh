@@ -8,12 +8,10 @@ MODE="${1:-all}"
 
 if [ "$MODE" = "--save" ]; then
     OUT="${2:-/sdcard/Download/gts3diag-$(date +%Y%m%d-%H%M%S).txt}"
-    shift 2 2>/dev/null || true
-    NEXT_MODE="${1:-all}"
+    NEXT_MODE="${3:-all}"
     "$0" "$NEXT_MODE" 2>&1 | tee "$OUT"
-    RC=${PIPESTATUS:-0}
     echo "Saved: $OUT"
-    exit "$RC"
+    exit 0
 fi
 
 section() {

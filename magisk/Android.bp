@@ -1,0 +1,6 @@
+android_app_import {
+    name: "Magisk",
+    apk: "Magisk.apk",
+    presigned: true,
+    privileged: true,
+}

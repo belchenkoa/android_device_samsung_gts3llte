@@ -32,6 +32,7 @@ PRODUCT_PACKAGES += \
 # Diagnostics
 PRODUCT_PACKAGES += \
     Terminal \
+    gts3diag \
     GTS3Diagnostics
 
 # IPA

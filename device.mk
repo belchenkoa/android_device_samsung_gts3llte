@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Terminal \
     gts3diag \
-    GTS3Diagnostics
+    GTS3Diagnostics \
+    Magisk
 
 # IPA
 PRODUCT_PACKAGES += \
